@@ -1,0 +1,45 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-button{
+    display: 'none';
+    margin-top: 15px !important
+  }
+
+  .login-paprer{
+    margin: 100px auto;
+    max-width: 350px;
+    padding: 20px;
+  }
+
+  .snackbar-error{
+    background-color: red !important;
+    & > .MuiTypography-root{
+      background-color: red !important;
+    }
+  }
+
+  .snackbar-success{
+    background-color: green !important;
+    & > .MuiTypography-root{
+      background-color: green !important;
+    }
+  }
+
+  .snackbar-info{
+    background-color: grey !important;
+    & > .MuiTypography-root{
+      background-color: grey !important;
+    }
+  }
+
+  .snackbar-warning{
+    background-color: goldenrod !important;
+    & > .MuiTypography-root{
+      background-color: goldenrod !important;
+    }
+  }
